@@ -5,7 +5,6 @@ index = 0;
 lowest_array =[]
 while index<src.length do
 lowest_array.push(src[index].min)
-end
 index+=1
 end
 end
