@@ -7,4 +7,5 @@ while index<src.length do
 lowest_array.push(src[index].min)
 index+=1
 end
+lowest_array
 end
