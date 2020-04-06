@@ -4,11 +4,7 @@ def find_min_in_nested_arrays(src)
 index = 0;
 lowest_array =[]
 while index<src.length do
-inner =0;
-while inner<src[index].length do
-
-  
-inner +=1
+lowest_array.push(src[index].min)
 end
 index+=1
 end
